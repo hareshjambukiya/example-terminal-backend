@@ -17,7 +17,7 @@ end
 
 options "*" do
   response.headers["Allow"] = "GET, POST, OPTIONS"
-  response.headers["Access-Control-Allow-Headers"] = "Authorization, Content-Type, Accept, X-User-Email, X-Auth-Token"
+  headers.append('Access-Control-Allow-Origin', 'http://localhost:3000',"http://localhost:3000");
   response.headers["Access-Control-Allow-Origin"] = "*"
   200
 end

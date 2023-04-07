@@ -7,6 +7,6 @@ services:
     buildCommand: bundle install
     startCommand: bundle exec ruby web.rb
     envVars:
-      - key: pk_test_51Mt7cPSDqaV3Ou1pkaqP92d0Mms2him4Xn8yP7WoaF69Bt1Rtv2PupuI4WdhQrSBBfBng0A7BXPa2BcwqGflMlrW00FiZdoWh8
+      - key: sk_test_51Mt7cPSDqaV3Ou1p7Efgh2XMAPpgJxk43lfXwjI0DKCTNRD7NYi93o2yAWaaiaq20IgmIUWaCbpzameT7y1NSdxg0031mIch2p
 
         sync: false # placeholder for a value to be added in the dashboard
